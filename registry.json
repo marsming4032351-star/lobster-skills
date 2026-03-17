@@ -1,37 +1,30 @@
-{                                                                                                                                                                                                                                           
-    "version": "1.0",                                                                                                                                                                                                                         
-    "updated": "2026-03-17",                                                                                                                                                                                                                  
-    "skills": {                                                                                                                                                                                                                               
-      "weather": {                                                                                                                                                                                                                            
-        "name": "天气查询",                                                                                                                                                                                                                   
-        "desc": "查询指定城市的实时天气和未来预报",                                                                                                                                                                                           
-        "tags": ["天气", "实用"],                                                                                                                                                                                                             
-        "url": "https://raw.githubusercontent.com/marsming4032351-star/lobster-skills/main/skills/weather_skill.py"                                                                                                                           
-      },                                                                                                                                                                                                                                      
-      "translator": {                                                                                                                                                                                                                         
-        "name": "翻译助手",                                                                                                                                                                                                                   
-        "desc": "中英互译，支持多语言",                                                                                                                                                                                                       
-        "tags": ["翻译", "语言"],                                                                                                                                                                                                             
-        "url": "https://raw.githubusercontent.com/marsming4032351-star/lobster-skills/main/skills/translator_skill.py"                                                                                                                        
-      },                                                                                                                                                                                                                                      
-      "calculator": {                                                                                                                                                                                                                         
-        "name": "计算器",                                                                                                                                                                                                                     
-        "desc": "支持四则运算和简单数学表达式",                                                                                                                                                                                               
-        "tags": ["计算", "工具"],                                                                                                                                                                                                             
-        "url": "https://raw.githubusercontent.com/marsming4032351-star/lobster-skills/main/skills/calculator_skill.py"                                                                                                                        
-      },                                                                                                                                                                                                                                      
-      "news": {                                                                                                                                                                                                                               
-        "name": "新闻速览",                                                                                                                                                                                                                   
-        "desc": "获取科技、财经、AI领域最新资讯",                                                                                                                                                                                             
-        "tags": ["新闻", "资讯"],                                                                                                                                                                                                             
-        "url": "https://raw.githubusercontent.com/marsming4032351-star/lobster-skills/main/skills/news_skill.py"                                                                                                                              
-      },                                                                                                                                                                                                                                      
-      "reminder": {                                                                                                                                                                                                                           
-        "name": "定时提醒",                                                                                                                                                                                                                   
-        "desc": "设置定时提醒，到点飞书推送通知",                                                                                                                                                                                             
-        "tags": ["提醒", "效率"],                                                                                                                                                                                                             
-        "url": "https://raw.githubusercontent.com/marsming4032351-star/lobster-skills/main/skills/reminder_skill.py"                                                                                                                          
-      }                                                                                                                                                                                                                                       
-    }                                                                                                                                                                                                                                         
-  }                                                                                                                                                                                                                                           
-                                                  
+{
+  "version": "1.1",
+  "updated": "2026-03-17",
+  "skills": {
+    "calculator": {
+      "name": "计算器",
+      "desc": "支持四则运算和 sqrt/sin/cos 等数学函数，零依赖本地执行",
+      "tags": ["计算", "工具", "本地"],
+      "url": "https://raw.githubusercontent.com/marsming4032351-star/lobster-skills/main/skills/calculator_skill.py"
+    },
+    "translator": {
+      "name": "翻译助手",
+      "desc": "中英互译，发「翻译 xxx」即可，由 Claude 驱动",
+      "tags": ["翻译", "语言", "AI"],
+      "url": "https://raw.githubusercontent.com/marsming4032351-star/lobster-skills/main/skills/translator_skill.py"
+    },
+    "news": {
+      "name": "新闻速览",
+      "desc": "搜索科技/AI/财经资讯并生成摘要，需要 BRAVE_API_KEY",
+      "tags": ["新闻", "资讯", "搜索"],
+      "url": "https://raw.githubusercontent.com/marsming4032351-star/lobster-skills/main/skills/news_skill.py"
+    },
+    "reminder": {
+      "name": "定时提醒",
+      "desc": "设置倒计时提醒，到点飞书推送。例：提醒我 30分钟后 开会",
+      "tags": ["提醒", "效率", "定时"],
+      "url": "https://raw.githubusercontent.com/marsming4032351-star/lobster-skills/main/skills/reminder_skill.py"
+    }
+  }
+}
